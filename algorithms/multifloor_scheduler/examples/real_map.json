@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {"id": "f0_a", "floor": 0, "x": 0, "y": 0},
+    {"id": "f0_b", "floor": 0, "x": 1, "y": 0},
+    {"id": "f1_a", "floor": 1, "x": 0, "y": 0},
+    {"id": "f1_b", "floor": 1, "x": 1, "y": 0}
+  ],
+  "edges": [
+    {"src": "f0_a", "dst": "f0_b", "length": 1, "kind": "floor"},
+    {"src": "f0_b", "dst": "f0_a", "length": 1, "kind": "floor"},
+    {"src": "f1_a", "dst": "f1_b", "length": 1, "kind": "floor"},
+    {"src": "f1_b", "dst": "f1_a", "length": 1, "kind": "floor"},
+    {"src": "f0_a", "dst": "f1_a", "length": 1, "kind": "elevator", "resource": "e0"},
+    {"src": "f1_a", "dst": "f0_a", "length": 1, "kind": "elevator", "resource": "e0"}
+  ],
+  "resources": {"e0": 1}
+}

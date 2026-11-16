@@ -1,0 +1,7 @@
+[project]
+name = "multifloor-scheduler"
+version = "0.1.0"
+description = "Standalone multi-floor robot batch task scheduler"
+requires-python = ">=3.9"
+dependencies = []
+

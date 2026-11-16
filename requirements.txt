@@ -1,0 +1,2 @@
+# No third-party dependencies: every scheduler and tool runs on the
+# Python standard library. Developed and validated with Python 3.10.12.

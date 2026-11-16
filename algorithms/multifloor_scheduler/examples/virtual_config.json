@@ -1,0 +1,18 @@
+{
+  "floors": 3,
+  "width": 6,
+  "height": 6,
+  "elevators": 1,
+  "stairs": 1,
+  "robots": 6,
+  "tasks": 6,
+  "robot_types": ["wheeled", "legged"],
+  "task_types": ["general"],
+  "seed": 42,
+  "elevator_board_time": 4.5,
+  "elevator_floor_time": 1.75,
+  "stair_speed": 0.5,
+  "floor_height": 3.5,
+  "speed_xy": 1.5,
+  "max_iterations": 1000
+}

@@ -1,0 +1,15 @@
+# Results produced by experiments/run_benchmark.py
+results/
+work/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local editor / OS noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2093 @@
+{
+ "dataset_version": "icde-real-v1",
+ "scenes": {
+  "real": {
+   "map": "real_1-7F.json",
+   "robots": [
+    16,
+    64,
+    128,
+    256,
+    512
+   ]
+  },
+  "wh8": {
+   "map": "movingai_warehouse_8F.json",
+   "robots": [
+    16,
+    64,
+    128,
+    256,
+    512,
+    1024
+   ]
+  },
+  "wh10": {
+   "map": "movingai_warehouse_10F.json",
+   "robots": [
+    16,
+    64,
+    128,
+    256,
+    512,
+    1024
+   ]
+  }
+ },
+ "load_ratios": [
+  0.5,
+  1.0,
+  1.5,
+  2.0
+ ],
+ "seeds": [
+  17,
+  29,
+  43
+ ],
+ "wheeled_fraction": 0.75,
+ "cross_floor_ratio": 0.5,
+ "note": "Skeleton cases (map_ref), assembled at run time by run_all_real.py. Robot levels are capped by real floor area: hospital 512 max (≈73/floor), warehouse 1024 max (≈100-140/floor).",
+ "cases": [
+  {
+   "case_id": "real_R16_M8_rho0p5_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 8,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R16_M8_rho0p5_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 8,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R16_M8_rho0p5_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 8,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R16_M16_rho1p0_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 16,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R16_M16_rho1p0_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 16,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R16_M16_rho1p0_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 16,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R16_M24_rho1p5_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 24,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R16_M24_rho1p5_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 24,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R16_M24_rho1p5_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 24,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R16_M32_rho2p0_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 32,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R16_M32_rho2p0_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 32,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R16_M32_rho2p0_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 16,
+   "tasks": 32,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R64_M32_rho0p5_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 32,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R64_M32_rho0p5_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 32,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R64_M32_rho0p5_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 32,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R64_M64_rho1p0_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 64,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R64_M64_rho1p0_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 64,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R64_M64_rho1p0_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 64,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R64_M96_rho1p5_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 96,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R64_M96_rho1p5_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 96,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R64_M96_rho1p5_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 96,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R64_M128_rho2p0_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 128,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R64_M128_rho2p0_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 128,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R64_M128_rho2p0_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 64,
+   "tasks": 128,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R128_M64_rho0p5_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 64,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R128_M64_rho0p5_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 64,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R128_M64_rho0p5_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 64,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R128_M128_rho1p0_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 128,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R128_M128_rho1p0_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 128,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R128_M128_rho1p0_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 128,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R128_M192_rho1p5_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 192,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R128_M192_rho1p5_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 192,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R128_M192_rho1p5_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 192,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R128_M256_rho2p0_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 256,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R128_M256_rho2p0_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 256,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R128_M256_rho2p0_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 128,
+   "tasks": 256,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R256_M128_rho0p5_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 128,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R256_M128_rho0p5_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 128,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R256_M128_rho0p5_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 128,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R256_M256_rho1p0_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 256,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R256_M256_rho1p0_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 256,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R256_M256_rho1p0_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 256,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R256_M384_rho1p5_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 384,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R256_M384_rho1p5_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 384,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R256_M384_rho1p5_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 384,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R256_M512_rho2p0_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 512,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R256_M512_rho2p0_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 512,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R256_M512_rho2p0_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 256,
+   "tasks": 512,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R512_M256_rho0p5_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 256,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R512_M256_rho0p5_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 256,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R512_M256_rho0p5_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 256,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R512_M512_rho1p0_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 512,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R512_M512_rho1p0_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 512,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R512_M512_rho1p0_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 512,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R512_M768_rho1p5_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 768,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R512_M768_rho1p5_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 768,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R512_M768_rho1p5_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 768,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "real_R512_M1024_rho2p0_S17",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 1024,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "real_R512_M1024_rho2p0_S29",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 1024,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "real_R512_M1024_rho2p0_S43",
+   "scene": "real",
+   "map": "real_1-7F.json",
+   "map_ref": "maps/real_1-7F.json",
+   "robots": 512,
+   "tasks": 1024,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R16_M8_rho0p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 8,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R16_M8_rho0p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 8,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R16_M8_rho0p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 8,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R16_M16_rho1p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 16,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R16_M16_rho1p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 16,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R16_M16_rho1p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 16,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R16_M24_rho1p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 24,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R16_M24_rho1p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 24,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R16_M24_rho1p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 24,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R16_M32_rho2p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 32,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R16_M32_rho2p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 32,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R16_M32_rho2p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 16,
+   "tasks": 32,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R64_M32_rho0p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 32,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R64_M32_rho0p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 32,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R64_M32_rho0p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 32,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R64_M64_rho1p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 64,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R64_M64_rho1p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 64,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R64_M64_rho1p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 64,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R64_M96_rho1p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 96,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R64_M96_rho1p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 96,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R64_M96_rho1p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 96,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R64_M128_rho2p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 128,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R64_M128_rho2p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 128,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R64_M128_rho2p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 64,
+   "tasks": 128,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R128_M64_rho0p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 64,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R128_M64_rho0p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 64,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R128_M64_rho0p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 64,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R128_M128_rho1p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 128,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R128_M128_rho1p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 128,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R128_M128_rho1p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 128,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R128_M192_rho1p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 192,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R128_M192_rho1p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 192,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R128_M192_rho1p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 192,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R128_M256_rho2p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 256,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R128_M256_rho2p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 256,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R128_M256_rho2p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 128,
+   "tasks": 256,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R256_M128_rho0p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 128,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R256_M128_rho0p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 128,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R256_M128_rho0p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 128,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R256_M256_rho1p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 256,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R256_M256_rho1p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 256,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R256_M256_rho1p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 256,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R256_M384_rho1p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 384,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R256_M384_rho1p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 384,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R256_M384_rho1p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 384,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R256_M512_rho2p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 512,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R256_M512_rho2p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 512,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R256_M512_rho2p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 256,
+   "tasks": 512,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R512_M256_rho0p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 256,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R512_M256_rho0p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 256,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R512_M256_rho0p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 256,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R512_M512_rho1p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 512,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R512_M512_rho1p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 512,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R512_M512_rho1p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 512,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R512_M768_rho1p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 768,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R512_M768_rho1p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 768,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R512_M768_rho1p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 768,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R512_M1024_rho2p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 1024,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R512_M1024_rho2p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 1024,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R512_M1024_rho2p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 512,
+   "tasks": 1024,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R1024_M512_rho0p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 512,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R1024_M512_rho0p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 512,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R1024_M512_rho0p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 512,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R1024_M1024_rho1p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 1024,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R1024_M1024_rho1p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 1024,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R1024_M1024_rho1p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 1024,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R1024_M1536_rho1p5_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 1536,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R1024_M1536_rho1p5_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 1536,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R1024_M1536_rho1p5_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 1536,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh8_R1024_M2048_rho2p0_S17",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 2048,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh8_R1024_M2048_rho2p0_S29",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 2048,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh8_R1024_M2048_rho2p0_S43",
+   "scene": "wh8",
+   "map": "movingai_warehouse_8F.json",
+   "map_ref": "maps/movingai_warehouse_8F.json",
+   "robots": 1024,
+   "tasks": 2048,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R16_M8_rho0p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 8,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R16_M8_rho0p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 8,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R16_M8_rho0p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 8,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R16_M16_rho1p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 16,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R16_M16_rho1p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 16,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R16_M16_rho1p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 16,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R16_M24_rho1p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 24,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R16_M24_rho1p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 24,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R16_M24_rho1p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 24,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R16_M32_rho2p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 32,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R16_M32_rho2p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 32,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R16_M32_rho2p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 16,
+   "tasks": 32,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R64_M32_rho0p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 32,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R64_M32_rho0p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 32,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R64_M32_rho0p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 32,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R64_M64_rho1p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 64,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R64_M64_rho1p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 64,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R64_M64_rho1p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 64,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R64_M96_rho1p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 96,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R64_M96_rho1p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 96,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R64_M96_rho1p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 96,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R64_M128_rho2p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 128,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R64_M128_rho2p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 128,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R64_M128_rho2p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 64,
+   "tasks": 128,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R128_M64_rho0p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 64,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R128_M64_rho0p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 64,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R128_M64_rho0p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 64,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R128_M128_rho1p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 128,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R128_M128_rho1p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 128,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R128_M128_rho1p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 128,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R128_M192_rho1p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 192,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R128_M192_rho1p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 192,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R128_M192_rho1p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 192,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R128_M256_rho2p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 256,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R128_M256_rho2p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 256,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R128_M256_rho2p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 128,
+   "tasks": 256,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R256_M128_rho0p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 128,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R256_M128_rho0p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 128,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R256_M128_rho0p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 128,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R256_M256_rho1p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 256,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R256_M256_rho1p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 256,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R256_M256_rho1p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 256,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R256_M384_rho1p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 384,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R256_M384_rho1p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 384,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R256_M384_rho1p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 384,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R256_M512_rho2p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 512,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R256_M512_rho2p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 512,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R256_M512_rho2p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 256,
+   "tasks": 512,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R512_M256_rho0p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 256,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R512_M256_rho0p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 256,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R512_M256_rho0p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 256,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R512_M512_rho1p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 512,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R512_M512_rho1p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 512,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R512_M512_rho1p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 512,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R512_M768_rho1p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 768,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R512_M768_rho1p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 768,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R512_M768_rho1p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 768,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R512_M1024_rho2p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 1024,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R512_M1024_rho2p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 1024,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R512_M1024_rho2p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 512,
+   "tasks": 1024,
+   "load_ratio": 2.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R1024_M512_rho0p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 512,
+   "load_ratio": 0.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R1024_M512_rho0p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 512,
+   "load_ratio": 0.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R1024_M512_rho0p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 512,
+   "load_ratio": 0.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R1024_M1024_rho1p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 1024,
+   "load_ratio": 1.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R1024_M1024_rho1p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 1024,
+   "load_ratio": 1.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R1024_M1024_rho1p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 1024,
+   "load_ratio": 1.0,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R1024_M1536_rho1p5_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 1536,
+   "load_ratio": 1.5,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R1024_M1536_rho1p5_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 1536,
+   "load_ratio": 1.5,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R1024_M1536_rho1p5_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 1536,
+   "load_ratio": 1.5,
+   "seed": 43
+  },
+  {
+   "case_id": "wh10_R1024_M2048_rho2p0_S17",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 2048,
+   "load_ratio": 2.0,
+   "seed": 17
+  },
+  {
+   "case_id": "wh10_R1024_M2048_rho2p0_S29",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 2048,
+   "load_ratio": 2.0,
+   "seed": 29
+  },
+  {
+   "case_id": "wh10_R1024_M2048_rho2p0_S43",
+   "scene": "wh10",
+   "map": "movingai_warehouse_10F.json",
+   "map_ref": "maps/movingai_warehouse_10F.json",
+   "robots": 1024,
+   "tasks": 2048,
+   "load_ratio": 2.0,
+   "seed": 43
+  }
+ ]
+}
