@@ -176,4 +176,4 @@ Per-instance work is reported as `makespan`, `sum_completion_time` and
 
 ## Contact
 
-Questions about the code or the datasets: open an issue on this repository.
+Questions about the code or the datasets: [open an issue](https://github.com/onlycwy11/MPSC-HSF/issues/new).
